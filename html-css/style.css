@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Times, serif;
+    color: white;
+    background-color: black;
+  }
+  
+  .container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+    overflow: hidden;
+  }
+
+  .image{
+    width: 110%;
+    height: 350%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://cdn.profoto.com/cdn/053149e/contentassets/d39349344d004f9b8963df1551f24bf4/profoto-albert-watson-steve-jobs-pinned-image-original.jpg?width=1280&quality=75&format=jpg);
+    transition: 0.7s;
+  }
+  
+  .image:hover{
+    transform: scale(1.2);
+  }
+  
+  .header {
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+  }
+  
+  header > .title {
+    margin-bottom: 1rem;
+  }
+  
+  .tribute {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 50px 1rem;
+  }
+  
+  .tribute blockquote {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .tribute img {
+    max-width: 100%;
+  }
+  
+  .bio {
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+  }
+  
+  .bio > h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  .bio > p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  
+  .bio > hr {
+    margin-top: 2rem;
+  }
